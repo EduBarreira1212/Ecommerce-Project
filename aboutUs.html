@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/shopping-cart.css' rel='stylesheet'>
+    <title>about us</title>
+    <style>
+        html {
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+
+        *, *:before, *:after {
+            box-sizing: inherit;
+        }
+
+        body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+            margin: 0;
+            padding: 0;
+            font-weight: normal;
+        }
+
+        ol, ul {
+            list-style: none;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="menuIcon">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <section id="menuHamburger">
+            <section id="menuHamburgerHeader">
+                <h3>Dev Store</h3>
+                <span id="exitBtn">X</span>
+            </section>
+            <ul>
+                <li><a href="./home.html">Home</a></li>
+                <li><a href="./aboutUs.html">About us</a></li>
+            </ul>
+        </section>
+        <h2>Dev Store</h2>
+        <a id="aHomeTag" href="./home.html">Home</a>
+        <a id="aAboutTag" href="./aboutUs.html"  class="active">About us</a>
+        <section id="cartPop-up">
+            <section id="cartPop-upHeader">
+                <h3>Dev Store</h3>
+                <span id="exitCartBtn">X</span>
+            </section>
+            <ul id="cartList">
+                
+            </ul>
+            <section id="cartPop-upFooter">
+                <span>Total</span>
+                <span id="totalPrice">TotalPrice</span>
+            </section>
+        </section>
+        <div id="cartIcon">
+            <div class="gg-shopping-cart">
+                
+            </div> 
+        </div>
+    </header>
+    <main>
+        <div class="aboutUsContent">
+            <section class="title">
+                <h2>About us</h2>
+            </section>
+            <article class="content">
+                <p>We offer the finest quality t-shirts, 
+                    expressing your style and personality with premium materials. Our diverse collection, curated by dedicated designers, 
+                    caters to all tastes. Meticulously crafted for unparalleled quality and durability, our t-shirts remain vibrant and soft after countless washes. With reliable shipping partners, 
+                    we ensure swift and safe deliveries. Customer satisfaction is our top priority, and our knowledgeable support team is always available. Experience the best in fashion, comfort,
+                     and self-expression with our products your one-stop destination for top-notch t-shirts.
+                </p>
+            </article>
+            <h2>To receive offers:</h2>
+            <form id="offersForm">
+                <div>
+                    <input class="inputClient" type="text" name="nameClient" id="nameClient" placeholder="Insert your name">
+                    <input class="inputClient" type="email" name="emailClient" id="emailClient" placeholder="Insert your email">
+                    <input class="inputClient" type="tel" name="telClient" id="telClient" placeholder="Insert your cell-phone">
+                    <input id="submitBtn" class="inputClient" type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+    </main>
+    <script type="module" src="./events.js"></script>
+</body>
+</html>
