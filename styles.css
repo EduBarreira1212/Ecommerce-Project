@@ -61,8 +61,10 @@ header{
     font-weight: 550;
 }
 #menuHamburger li a:hover{
-    transition-duration: 1s;
-    padding: 10%;
+    transition-duration: 0.5s;
+    background-color: rgba(0, 0, 0, 0.456);
+    color: white;
+    padding: 7%;
     transition-timing-function: ease-out;
 }
 
@@ -84,7 +86,7 @@ header a{
     text-decoration: none;
 }
 .active{
-    background-color: green;
+    background-color: rgba(0, 0, 0, 0.456);
     color: white;
 }
 
