@@ -2,10 +2,15 @@ img{
     cursor: pointer;
 }
 header{
+    background-color: #fff;
     height: 5vh;
     display: flex;
     align-items: center;
     border-bottom: solid;
+    box-shadow: 0 0.28vh 0.5vw rgb(141, 141, 141);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 #menuIcon{
     height: 4vh;
